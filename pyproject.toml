@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "setup_tools_createNewWorkspace"
+version = "0.1.0"
+description = "Minimal Hello World project"
+readme = "README.md"
+requires-python = ">=3.8"
