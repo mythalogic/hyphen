@@ -1,5 +1,38 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+.env
+venv/
+env/
+.venv/
 .pytest_cache/
+
+# Node
+node_modules/
+.svelte-kit/
+.output/
+.vercel/
+build/
+
+# Environment (never commit real credentials)
+.env
+.env.local
+.env.*.local
+
+# IDE
 .vscode/
+.idea/
+*.swp
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite
+*.db
