@@ -3,8 +3,8 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aifish"
+name = "setup_tools_createNewWorkspace"
 version = "0.1.0"
-description = "Initial scaffold for the AIFISH AI phishing detector"
+description = "Minimal Hello World project"
 readme = "README.md"
 requires-python = ">=3.8"
