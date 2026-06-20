@@ -1,19 +1,11 @@
 {
-  "name": "hyphen-monorepo",
+  "name": "aifish",
   "version": "0.1.0",
-  "description": "Hyphen - A haiku-based social platform",
+  "description": "Initial scaffold for the AIFISH AI phishing detector",
   "private": true,
-  "workspaces": [
-    "frontend",
-    "backend",
-    "shared"
-  ],
   "scripts": {
-    "dev": "concurrently \"npm run dev -w frontend\" \"npm run dev -w backend\"",
-    "build": "npm run build -w frontend && npm run build -w backend",
-    "start": "npm start -w backend"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.0"
+    "build": "python -m py_compile src/main.py",
+    "start": "python -m src.main",
+    "test": "python -m pytest -q"
   }
 }

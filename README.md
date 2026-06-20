@@ -1,32 +1,40 @@
-# setup_tools_createNewWorkspace
+# AIFISH
 
-Minimal Python "Hello, World!" project scaffold.
+Initial repository scaffold for **AIFISH**, an AI phishing detector focused on phishing email detection with NLP and ML models.
 
-## Quick start (Windows)
+This repo is intentionally minimal for now. It establishes the project identity, basic Python entrypoint, and validation hooks while the detailed product prompt is still pending.
+
+## Current status
+
+- Repository scaffold created
+- Project branding aligned to AIFISH
+- Placeholder CLI entrypoint added
+- Test coverage for the placeholder entrypoint added
+- NLP/ML pipeline intentionally deferred until requirements are provided
+
+## Quick start
 
 1. Create and activate a virtual environment:
 
-```powershell
+```bash
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+source .venv/bin/activate
 ```
 
 2. Install dev requirements:
 
-```powershell
+```bash
 pip install -r requirements.txt
 ```
 
-3. Run the program:
+3. Run the placeholder app:
 
-```powershell
-python src\main.py
-# or
+```bash
 python -m src.main
 ```
 
 4. Run tests:
 
-```powershell
+```bash
 python -m pytest -q
 ```
